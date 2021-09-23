@@ -1,0 +1,58 @@
+{
+    "Character ":[
+        { "id":"0",
+            "name":"Naruto",
+            "lastname":"Uzumaki",
+            "age" :19 ,
+            "elemento": "Viento",
+            "Habilidad": "Rasengan",
+            "clan": "Uzumaki",
+            "images":"https://lh6.googleusercontent.com/proxy/KUDE-uKM83BX4mtp4nJzwloPdgCwNOiZDsy2qy8XbqMR5FqPPkhw3LqdZ6J1GHwbADnPc4VzGMwUFJDOu6Uu2qtObsKUv8oNVWN6N52s2pgEAn8UGuL7K5cwAw=w1200-h630-p-k-no-nu"
+        },{
+            "id":"1",
+            "name":"Sasuke",
+            "lastname":"Uchiha",
+            "age" :19 ,
+            "elemento": "fuego",
+            "Habilidad": "Chidori",
+            "clan": "Uchiha",
+            "images":"http://pm1.narvii.com/6276/6977c802337667a9f282acccdf37dbcc50a519e8_00.jpg"
+        },{
+            "id":"2",
+            "name":"Sakura",
+            "lastname":"Haruno",
+            "age" :19 ,
+            "elemento": "fuerza",
+            "Habilidad": "Ninjustsu medico",
+            "clan": "Haruno",
+            "images":"https://i.pinimg.com/474x/d6/f0/d3/d6f0d3bf5b36c5c97dbda8d6cfdd9f8b.jpg"
+        },{
+            "id":"3",
+            "name":"Kakashi",
+            "lastname":"Hatake",
+            "age" :33 ,
+            "elemento": "trueno",
+            "Habilidad": "clones de Sombra",
+            "clan": "Hatake",
+            "images":"https://i.pinimg.com/474x/45/e1/35/45e13564c608d09b3665490f361bb59d.jpg"
+        },{
+            "id":"4",
+            "name":"Hinata",
+            "lastname":"Hyuga",
+            "age" :19 ,
+            "elemento": "Yang",
+            "Habilidad": "Byakugan",
+            "clan": "Hyuga",
+            "images":"http://pm1.narvii.com/6345/6a254e13908aef6986dd6764f2f34988621879a7_00.jpg"
+        },{
+            "id":"5",
+            "name":"Itachi",
+            "lastname":"Uchiha",
+            "age" :21 ,
+            "elemento": "fuego",
+            "Habilidad": "Amaterasu",
+            "clan": "",
+            "images":"https://i.pinimg.com/564x/9e/9c/a4/9e9ca421a5293e156ad21c26800589f3.jpg"
+        }
+    ]
+}
