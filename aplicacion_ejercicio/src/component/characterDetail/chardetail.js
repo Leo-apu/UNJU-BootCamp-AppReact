@@ -13,7 +13,7 @@ export default class CharDetail extends React.Component{
         this.setState(() => {
            return {
             currentElement: datos["Character "].find(
-                (element) => element.id == event.target.value
+                (element) => element.id === event.target.value
             ),
            };
         });
@@ -25,7 +25,7 @@ export default class CharDetail extends React.Component{
                 <select onChange={(event) => {
                     this.onChangeInput(event);
                 } }> {datos["Character "].map((element) => (
-                    <option value={element.id}>
+                    <option value={element.id} key={element.id}>
                         {element.name + " " + element.lastname}
                     </option>
                 ))}

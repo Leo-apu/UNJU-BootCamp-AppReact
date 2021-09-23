@@ -9,10 +9,10 @@ export default class NavBar extends React.Component{
                     <div>NARUTO SHIPPUDEN</div>
                     <ul className="links">
                         <li>
-                            <a href="#">Character </a>
+                            <a href="javasript: void(0)">Character </a>
                         </li>
                         <li>
-                            <a href="#">About</a>
+                            <a href="javasript: void(0)">About</a>
                         </li>
                     </ul>
                 </nav>
