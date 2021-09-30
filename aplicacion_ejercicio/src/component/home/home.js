@@ -9,7 +9,7 @@ export default class Home extends  React.Component{
             <div className="home">
                 {datos["Character "].map((element) => (
                     <Card 
-                        name = {element.name + " " + element.lastname} images= {element.images} key={element.id}
+                    id = {element.id} name = {element.name + " " + element.lastname} images= {element.images} key={element.id}
                     />
                 ))}
             </div>

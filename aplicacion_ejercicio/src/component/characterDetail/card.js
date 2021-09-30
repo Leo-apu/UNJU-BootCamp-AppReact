@@ -1,18 +1,20 @@
+/* eslint-disable no-template-curly-in-string */
 import React from "react";
 import "./card.css";
+import { NavLink } from "react-router-dom";
 
-export default class Card extends React.Component{
-    constructor(props){
-        super();
-    }
-    render(){
+const Card = (props) => {
         return(
             <div className="card">
                 <div>
-                    <img src={this.props.images}></img>
+                    <img src={props.images} alt="imagen"></img>
                 </div>
-                <div className="name">{this.props.name}</div>
+                <div className="name">
+                    <NavLink to={'/characterDetailId/ ${props.id}'}>
+                        {props.name}
+                    </NavLink>
+                </div>
             </div>
         );
-    }
 }
+export default Card;

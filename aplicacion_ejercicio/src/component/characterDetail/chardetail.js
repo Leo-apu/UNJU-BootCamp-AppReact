@@ -1,29 +1,17 @@
-import React from "react";
+import React,{useState} from "react";
 import datos from "../../datos/datos.json";
 import "./charDetail.css";
 
-export default class CharDetail extends React.Component{
-    constructor(){
-        super();
-        this.state = {
-            currentElement : datos["Character "][0],
+const CharDetail = () => {
+        const [Perfil, setState] = useState (datos["Character "][0]);
+        const onChangeInput = (event) => {
+            setState(datos["Character "].find((element)=> element.id === event.target.value))
         };
-    }
-    onChangeInput = (event) => {
-        this.setState(() => {
-           return {
-            currentElement: datos["Character "].find(
-                (element) => element.id === event.target.value
-            ),
-           };
-        });
-    };
-    render (){
         return(
             <div className="all">
                 <div className="container">
                 <select onChange={(event) => {
-                    this.onChangeInput(event);
+                    onChangeInput(event);
                 } }> {datos["Character "].map((element) => (
                     <option value={element.id} key={element.id}>
                         {element.name + " " + element.lastname}
@@ -32,20 +20,19 @@ export default class CharDetail extends React.Component{
                 </select>
                 <div className="container">
                     <h1>
-                        {this.state.currentElement.name + " "+ this.state.currentElement.lastname}
+                        {Perfil.name + " "+ Perfil.lastname}
                     </h1>
                 </div>
-                <div><img src={this.state.currentElement.images}></img></div>
+                <div><img img src={Perfil.images} alt ="imagen"></img></div>
                 <div>
-                    <h2>Character Details</h2>
-                    <h3>Elemento : {this.state.currentElement.elemento}</h3>
-                    <h3>Habilidad : {this.state.currentElement.Habilidad}</h3>
-                    <h3>Edad : {this.state.currentElement.age + " años"}</h3>
-                    <h3>Clan : {this.state.currentElement.clan}</h3>
+                    <h2>Personaje Detalles</h2>
+                    <h3>Elemento : {Perfil.elemento}</h3>
+                    <h3>Habilidad : {Perfil.Habilidad}</h3>
+                    <h3>Edad : {Perfil.age + " años"}</h3>
+                    <h3>Clan : {Perfil.clan}</h3>
                 </div>
             </div>
             </div>
-           
         );
     }
-}
+    export default CharDetail;
