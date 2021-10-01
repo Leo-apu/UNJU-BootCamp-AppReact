@@ -16,6 +16,7 @@
     font-size: 20px;
     text-align: center;
     outline: none;
+    margin-top: 15px;
   }
   .container h2 {
     font-size: 40px;
@@ -28,7 +29,7 @@
     color: rgb(252, 197, 80);
   }
   .container div img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 400px;
+    max-height: 400px;
   }
-
+  

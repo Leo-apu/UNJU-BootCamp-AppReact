@@ -9,6 +9,7 @@
     font-family: fantasy;
     font-size: 2rem;
     margin-top: 2px;
+    text-decoration: none;
   }
   .nav {
     display: flex;
@@ -21,6 +22,7 @@
     justify-content: space-around;
     align-content: center;
     list-style: none;
+    color: white;
   }
   .links a {
     text-decoration: none;

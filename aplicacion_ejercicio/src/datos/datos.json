@@ -23,7 +23,7 @@
             "lastname":"Haruno",
             "age" :19 ,
             "elemento": "fuerza",
-            "Habilidad": "Ninjustsu medico",
+            "Habilidad": "Creación de Renacimiento",
             "clan": "Haruno",
             "images":"https://i.pinimg.com/474x/d6/f0/d3/d6f0d3bf5b36c5c97dbda8d6cfdd9f8b.jpg"
         },{
@@ -32,7 +32,7 @@
             "lastname":"Hatake",
             "age" :33 ,
             "elemento": "trueno",
-            "Habilidad": "clones de Sombra",
+            "Habilidad": "Kamui",
             "clan": "Hatake",
             "images":"https://i.pinimg.com/474x/45/e1/35/45e13564c608d09b3665490f361bb59d.jpg"
         },{
@@ -43,7 +43,7 @@
             "elemento": "Yang",
             "Habilidad": "Byakugan",
             "clan": "Hyuga",
-            "images":"http://pm1.narvii.com/6345/6a254e13908aef6986dd6764f2f34988621879a7_00.jpg"
+            "images":"https://w0.peakpx.com/wallpaper/922/190/HD-wallpaper-hinata-hyuga-ii-aesthetic-anime-edit-naruto-purple-uzumaki-waifu.jpg"
         },{
             "id":"5",
             "name":"Itachi",
@@ -51,8 +51,62 @@
             "age" :21 ,
             "elemento": "fuego",
             "Habilidad": "Amaterasu",
-            "clan": "",
+            "clan": "Uchiha",
             "images":"https://i.pinimg.com/564x/9e/9c/a4/9e9ca421a5293e156ad21c26800589f3.jpg"
+        },{
+            "id":"6",
+            "name":"Madara",
+            "lastname":"Uchiha",
+            "age" : 0 ,
+            "elemento": "fuego",
+            "Habilidad": "Izanagi",
+            "clan": "Uchiha",
+            "images":"https://i.pinimg.com/originals/96/2c/00/962c0053e64ddb8434c329cf155db9b7.jpg"
+        },{
+            "id":"7",
+            "name":"Obito",
+            "lastname":"Uchiha",
+            "age" :33 ,
+            "elemento": "fuego",
+            "Habilidad": "Kamui",
+            "clan": "Uchiha",
+            "images":"https://w0.peakpx.com/wallpaper/245/64/HD-wallpaper-obito-uchiha.jpg"
+        },{
+            "id":"8",
+            "name":"Minato",
+            "lastname":"Namikaze",
+            "age" :24 ,
+            "elemento": "Rayo",
+            "Habilidad": "Hiraishin",
+            "clan": "Namikaze",
+            "images":"https://i.pinimg.com/originals/03/cf/51/03cf518d8e5ecedb4b358f079e85f6bf.jpg"
+        },{
+            "id":"9",
+            "name":"Jiraiya",
+            "lastname":"",
+            "age" :52 ,
+            "elemento": "Fuego",
+            "Habilidad": "Gran Bola Rasengan",
+            "clan": "Kyushu Senju",
+            "images":"https://i.pinimg.com/originals/76/c9/7a/76c97a1cd8b9fdefe9fb15e562f7f0b0.png"
+        },{
+            "id":"10",
+            "name":"Neji",
+            "lastname":"Hyuga",
+            "age" :21 ,
+            "elemento": "Viento",
+            "Habilidad": "Puño Suave",
+            "clan": "Hyuga",
+            "images":"https://i.pinimg.com/736x/4f/12/8f/4f128f7695880737f74705212282aeb0.jpg"
+        },{
+            "id":"11",
+            "name":"Sai",
+            "lastname":"Yamanaka",
+            "age" :20 ,
+            "elemento": "fuego",
+            "Habilidad": "Choju Giga",
+            "clan": "Yamanaka",
+            "images":"https://i.pinimg.com/originals/d5/62/b0/d562b04984785b2c3bf0177928e093a9.jpg"
         }
     ]
 }
