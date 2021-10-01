@@ -7,10 +7,12 @@ const Card = (props) => {
         return(
             <div className="card">
                 <div>
-                    <img src={props.images} alt="imagen"></img>
+                    <NavLink to={`/characterDetailId/${props.id}`}> 
+                        <img src={props.images} alt="imagen"></img>
+                    </NavLink>
                 </div>
                 <div className="name">
-                    <NavLink to={'/characterDetailId/ ${props.id}'}>
+                    <NavLink to={`/characterDetailId/${props.id}`}>
                         {props.name}
                     </NavLink>
                 </div>
