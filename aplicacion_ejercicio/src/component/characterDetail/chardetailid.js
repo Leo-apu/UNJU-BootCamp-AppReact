@@ -9,7 +9,7 @@ export default function CharDetailId (){
     const location = useLocation();
      console.log(location)
     const change = () => {
-        history.push("/home")
+        history.push("/")
     }
     var Current = datos["Character "].find((element) => element.id === parametro.id)
     return(
