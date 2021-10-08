@@ -2,14 +2,14 @@
     background: rgb(2,0,36);
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(255,89,17,1) 34%, rgba(255,203,59,1) 65%, rgba(255,248,0,1) 100%);
 }
-.container {
+.container0 {
     display: flex;
     justify-content: center;
     flex-direction:column;
     text-align: center;
     width: 100%;
   }
-  .container select {
+  .container0 select {
     width: 400px;
     height: 30px;
     align-self: center;
@@ -18,17 +18,17 @@
     outline: none;
     margin-top: 15px;
   }
-  .container h2 {
+  .container0 h2 {
     font-size: 40px;
     margin: 3px;
     color: rgb(0, 0, 0);
   }
-  .container h3 {
+  .container0 h3 {
     font-size: 30px;
     margin: 3px;
     color: rgb(252, 197, 80);
   }
-  .container div img {
+  .container0 div img {
     max-width: 400px;
     max-height: 400px;
   }

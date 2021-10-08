@@ -18,7 +18,7 @@ function App() {
     <div className="App">
         <NavBar/>
         <Switch>
-          <Route exact path="/home">
+          <Route exact path="/">
               <Home character={datos['Character ']}></Home>
           </Route>
           <Route exact path="/characterDetail">

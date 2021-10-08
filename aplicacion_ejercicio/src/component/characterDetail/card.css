@@ -1,4 +1,4 @@
-.card {
+.card0 {
     max-width: 400px;
     max-height: 500px;
     margin: 10px;
@@ -9,10 +9,10 @@
     transition: 0.1s;
     border-radius: 20px;
   }
-  .card:hover {
+  .card0:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.753);
   }
-  .card div {
+  .card0 div {
     overflow: hidden;
     max-height: 400px;
   }
@@ -27,4 +27,11 @@
     max-width: 400px;
     max-height: 400px;
     border-top-style: 20px;
+  }
+  .card0 a{
+    text-decoration: none;
+    color: chocolate;
+  }
+  .card0 a:hover{
+    color: rgb(255, 238, 5);
   }

@@ -9,7 +9,7 @@ const CharDetail = () => {
         };
         return(
             <div className="all">
-                <div className="container">
+                <div className="container0">
                 <select onChange={(event) => {
                     onChangeInput(event);
                 } }> {datos["Character "].map((element) => (
@@ -18,7 +18,7 @@ const CharDetail = () => {
                     </option>
                 ))}
                 </select>
-                <div className="container">
+                <div className="container0">
                     <h1>
                         {Perfil.name + " "+ Perfil.lastname}
                     </h1>
