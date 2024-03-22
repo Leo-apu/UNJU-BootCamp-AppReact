@@ -1,37 +1,50 @@
 .card0 {
-    max-width: 400px;
-    max-height: 500px;
-    margin: 10px;
-    text-align: center;
-    background: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
-    transition: 0.1s;
-    border-radius: 20px;
-  }
-  .card0:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.753);
-  }
-  .card0 div {
-    overflow: hidden;
-    max-height: 400px;
-  }
-  .name {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    font-size: 25px;
-    text-decoration: none;
-  }
-   img {
-    max-width: 400px;
-    max-height: 400px;
-    border-top-style: 20px;
-  }
-  .card0 a{
-    text-decoration: none;
-    color: chocolate;
-  }
-  .card0 a:hover{
-    color: rgb(255, 238, 5);
-  }
+  max-width: 400px;
+  max-height: 500px;
+  margin: 10px;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0);
+  transition: 0.3s; /* Aumenté el tiempo de transición para hacerlo más suave */
+  border-radius: 20px;
+  overflow: hidden; /* Añadí esta propiedad para que la imagen no sobresalga de la tarjeta */
+}
+
+.card0:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.753);
+  transform: scale(1.1); /* Hace que la tarjeta se agrande al 110% al pasar el ratón sobre ella */
+}
+
+.card0 div {
+  overflow: hidden;
+  max-height: 400px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+img {
+  max-width: 550px;
+  max-height: 550px;
+  border-top-style: 20px;
+  transition: transform 0.3s; /* Añadí una transición para que el aumento de tamaño sea suave */
+}
+
+.card0:hover img {
+  transform: scale(1.2); /* Hace que la imagen se agrande al 120% al pasar el ratón sobre la tarjeta */
+}
+
+.card0 a {
+  text-decoration: none;
+  color: chocolate;
+}
+
+.card0 a:hover {
+  color: rgb(255, 238, 5);
+}

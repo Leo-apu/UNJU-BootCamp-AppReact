@@ -65,7 +65,7 @@ const About =(props)=> {
                 <Card.Title>EJERCICIO REACT</Card.Title>
                 <Card.Text>
                     <p class="text-center fw-bold text-dark">LEANDRO VICTORINO CRUZ - BOOTCAMP-REACT</p>
-                    <p class="text-center text-italic fw-bold text-dark"> Contacto: leovcruz@gmail.com </p>
+                    <p class="text-center text-italic fw-bold text-dark"> Contacto: leovcruz0304@gmail.com </p>
                 </Card.Text>
                 </Card.Body>
             </Card>
